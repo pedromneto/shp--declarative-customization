@@ -1,0 +1,19 @@
+{
+    "$schema": "http://columnformatting.sharepointpnp.com/columnFormattingSchema.json",
+    "elmType": "div", 
+    "txtContent":"@currentField", 
+    "style":{
+        "background-color":{
+            "operator": "?",
+            "operands": [
+                {
+                    "operator": "==",
+                    "operands": [
+                        "@currentField",0
+                    ]
+                },
+                "#FFD1C2",""
+            ]
+        }
+    }        
+}
